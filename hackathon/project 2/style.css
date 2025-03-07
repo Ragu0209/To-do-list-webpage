@@ -1,0 +1,167 @@
+/* Reset styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('bgimg2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center; 
+}
+
+/* Container for the app */
+.app-container {
+    background-color:;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #efba0c;
+    font-size: 6em;
+}
+
+/* Task manager input area */
+.task-manager {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.task-input, .category-select, .priority-select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 200px;
+    font-size: 1em;
+}
+
+.btn-add-task {
+    padding: 10px 20px;
+    background-color: #08d579;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+/* Task Filters */
+.filters {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btn-filter {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #f4f4f5;
+    color: rgb(5, 154, 23);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+/* Task List */
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.task:hover {
+    transform: scale(1.05);
+}
+
+.task.completed {
+    background-color: #e8f5e9;
+    text-decoration: line-through;
+}
+
+.task .priority {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.task .category {
+    font-size: 0.9em;
+    color: #777;
+    margin-top: 5px;
+}
+
+/* Proof Section */
+.proof-upload {
+    margin-top: 15px;
+    display: none;
+}
+
+.proof-upload input {
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Task Buttons */
+.task-buttons {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+button.task-btn {
+    background-color: #0e9f57;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.task-btn:hover {
+    background-color: #09840f;
+}
+
+button.delete-btn {
+    background-color: red;
+}
+
+button.delete-btn:hover {
+    background-color: darkred;
+}
+.category-select:hover{
+    cursor: pointer;
+}
+.:hover{
+    cursor: not-allowed;
+}
+    
+}
+ 
