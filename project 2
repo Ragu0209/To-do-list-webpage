@@ -1,0 +1,8 @@
+<script>start("c:\\Users\\ragul\\hackathon\\project 2\\");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("bgimg.jpg","bgimg.jpg",0,2199056,"2.1 MB",1741345198,"3/7/25, 4:29:58 PM");</script>
+<script>addRow("bgimg2.jpg","bgimg2.jpg",0,2979,"2.9 kB",1741345986,"3/7/25, 4:43:06 PM");</script>
+<script>addRow("bgimg3.gif","bgimg3.gif",0,19033,"18.6 kB",1741346423,"3/7/25, 4:50:23 PM");</script>
+<script>addRow("index.html","index.html",0,1683,"1.6 kB",1741345694,"3/7/25, 4:38:14 PM");</script>
+<script>addRow("script.js","script.js",0,2932,"2.9 kB",1741344174,"3/7/25, 4:12:54 PM");</script>
+<script>addRow("style.css","style.css",0,2852,"2.8 kB",1741348482,"3/7/25, 5:24:42 PM");</script>
